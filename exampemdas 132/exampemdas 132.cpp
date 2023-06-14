@@ -52,7 +52,7 @@ public:
 	}
 	float keliling() {
 		int s = getX();
-		return s * s * s * s;
+		return 4*s;
 	}
 };
 
