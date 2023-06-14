@@ -24,8 +24,8 @@ class Lingkaran :public bidangdatar {
 public:
 	void input() {
 		int r;
-		std::cout << "Masukan jejari: ";
-		std::cin >> r;
+		cout << "Masukan jejari: ";
+		cin >> r;
 		setX(r);
 	}
 	float luas() {
