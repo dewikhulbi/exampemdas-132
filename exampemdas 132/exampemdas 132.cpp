@@ -60,7 +60,7 @@ int main()
 {
 	Lingkaran lingkaran;
 	lingkaran.input();
-	cout << "Luas Lingkaran: " << lingkaran.Luas() <<  endl;
+	cout << "Luas Lingkaran: " << lingkaran.luas() <<  endl;
 	cout << "Keliling Lingkaran: " << lingkaran.keliling() << endl;
 
 	cout << " " << endl;
@@ -69,7 +69,7 @@ int main()
 
 	Bujursangkar bujursangkar;
 	bujursangkar.input();
-	cout << "luas Bujursangkar: " << bujursangkar.Luas() << endl;
+	cout << "luas Bujursangkar: " << bujursangkar.luas() << endl;
 	cout << "keliling Bujursangkar: " << bujursangkar.keliling() << endl;
 
 	return 0;
